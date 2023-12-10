@@ -59,10 +59,6 @@ Alternatively you could do this:
 > python -m pip install -e ."[dev]"
 ```
 
-#### OpenAI
-
-If you're using one of the OpenAI models, you will need to set the `LLM_VM_OPENAI_API_KEY` environment
-variable with your API key. 
 
 ### ✅ Usage
 
@@ -74,7 +70,7 @@ from distillery.client import Client
 client = Client(big_model = 'chat_gpt')
 
 # Put in your prompt and go!
-response = client.complete(prompt = 'What is Anarchy?', context = '', openai_key = 'ENTER_YOUR_API_KEY')
+response = client.complete(system_prompt = '', prompt = 'What is Anarchy?', openai_key = 'ENTER_YOUR_API_KEY')
 print(response)
 # Anarchy is a political ideology that advocates for the absence of government...
 ```
