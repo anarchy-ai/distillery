@@ -22,7 +22,7 @@ This is [Anarchy's](https://anarchy.ai) effort to help wean you off of closed-so
    * [Usage](#-usage)
 * [Contributing](#-contributing-)
 
-## 💁 What is the Distillery? 💁
+## 💁 What is the Distillery?
 
 If your doing one thing lots of times, why use a giant expensive and slow general purpose model when a fine-tuned small model could suffice?
 Where do you get the training data? 
@@ -33,11 +33,9 @@ Synthesize some with the big model.
 Distillery does this.  Replace `openai.complete` or whatever with `distillery.complete` and it will 
 help you automatically switch over to a custom fine-tuned model.
 
-## 🚀 Quickstart 🚀
+## 🚀 Quickstart
 
-### 🥹 Requirements
-
-#### Installation Requirements
+### Installation Requirements
 
 Python >=3.10 Supported. Older versions of Python are on a best-effort basis. 
 
@@ -45,9 +43,9 @@ Use ```bash > python3 --version ``` to check what version you are on.
 
 To upgrade your python, either create a new python env using ```bash > conda create -n myenv python=3.10 ``` or go to https://www.python.org/downloads/ to download the latest version.
 
-### 👨‍💻 Installation
+### Installation
 
-The quickest way to get started is to run `pip install llm-vm` in your Python environment. 
+TODO: The quickest way to get started is to run `pip install distillery` in your Python environment. 
 
 Alternatively you could do this:
 
@@ -76,7 +74,7 @@ print(response)
 ```
 
 
-## 🩷 Contributing 🩷
+## 🩷 Contributing 
 
 We welcome contributors!  To get started is to join our active [discord community](https://discord.anarchy.ai).  Otherwise here are some ways to contribute and get paid:
 
@@ -90,7 +88,7 @@ We welcome contributors!  To get started is to join our active [discord communit
 
 We offer bounties for closing specific tickets! Look at the ticket labels to see how much the bounty is.  To get started, [join the discord and read the guide](https://discord.com/channels/1075227138766147656/1147542772824408074)
 
-## 🙏 Acknowledgements 🙏
+## 🙏 Acknowledgements
 
 - **Matthew Mirman** - CEO
   - GitHub: [@mmirman](https://github.com/mmirman)
