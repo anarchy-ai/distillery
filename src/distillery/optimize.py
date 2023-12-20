@@ -122,7 +122,7 @@ class HostedOptimizer(Optimizer):
 
     def complete(self, stable_context, dynamic_prompt, **kwargs):
         """
-        TODO: Runs the optimizing completion process on anarchy's hosted server with persistence.
+        Runs the optimizing completion process on anarchy's hosted server with persistence.
 
         Parameters:
         - stable_context (str): Stable contextual data to use as a basis for training.
