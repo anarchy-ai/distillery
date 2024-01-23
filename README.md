@@ -24,7 +24,7 @@ This is [Anarchy's](https://anarchy.ai) effort to help wean you off of closed-so
 
 ## 💁 What is the Distillery?
 
-If your doing one thing lots of times, why use a giant expensive and slow general purpose model when a fine-tuned small model could suffice?
+If you're doing one thing lots of times, why use a giant expensive and slow general purpose model when a fine-tuned small model could suffice?
 Where do you get the training data? 
 Why not from running a big model on user data?  
 What if you don't have enough user data? 
